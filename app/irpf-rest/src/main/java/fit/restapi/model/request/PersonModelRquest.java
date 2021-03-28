@@ -1,10 +1,10 @@
-package fit.restapi.view;
+package fit.restapi.model.request;
 
-public class PersonVm {
+public class PersonModelRquest {
     private double totalSalary;
     private int dependentsNumber;
 
-    public PersonVm() {
+    public PersonModelRquest() {
         super();
     }
 

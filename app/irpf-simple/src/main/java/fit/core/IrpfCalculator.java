@@ -3,9 +3,7 @@ package fit.core;
 import fit.domain.Person;
 
 public class IrpfCalculator {
-  /**
-   *
-   */
+
   private Person person;
   private IrpfCalculatorOO calculator;
 
