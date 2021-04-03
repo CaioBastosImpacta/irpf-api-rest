@@ -18,6 +18,21 @@ mvn install
 mvn spring-boot:run
 ```
 
+### Buscar a tabela de IRPF FAKE
+* Abrir o Postman
+```bash
+Metodo: GET
+URL: localhost:8080/irpf
+```
+
+* 2. LINHDA DE COMANDO
+```bash
+curl --request GET \
+  --url http://127.0.0.1:8080/irpf \
+  --header 'Content-Type: application/json' \
+```
+
+### Executar o calculo de IRPF FAKE
 * Abrir o Postman
 ```bash
 Metodo: POST
@@ -51,7 +66,21 @@ https://hub.docker.com/repository/docker/caiobastos12/irpf-api
 ```bash
 docker run <nome_imagem>
 ```
+### Buscar a tabela de IRPF FAKE
+* Abrir o Postman
+```bash
+Metodo: GET
+URL: localhost:8080/irpf
+```
 
+* 2. LINHDA DE COMANDO
+```bash
+curl --request GET \
+  --url http://127.0.0.1:8080/irpf \
+  --header 'Content-Type: application/json' \
+```
+
+### Executar o calculo de IRPF FAKE
 * 1. Abrir o Postman
 ```bash
 Metodo: POST
